@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="wallpaper.svg"
+   inkscape:export-filename="/home/localo/wallpapers/wallpaper.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:snap-page="false"
+     inkscape:object-nodes="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:zoom="0.46773658"
+     inkscape:cx="383.76301"
+     inkscape:cy="427.5911"
+     inkscape:window-width="1882"
+     inkscape:window-height="997"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1413">
+    <sodipodi:guide
+       position="400.30912,150.06716"
+       orientation="0,1920"
+       id="guide1415" />
+    <sodipodi:guide
+       position="508,285.75"
+       orientation="1080,0"
+       id="guide1417" />
+    <sodipodi:guide
+       position="508,0"
+       orientation="0,-1920"
+       id="guide1419" />
+    <sodipodi:guide
+       position="254.00013,228.85402"
+       orientation="-1080,0"
+       id="guide1421" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="bg"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#2e3440;fill-opacity:1;fill-rule:evenodd;stroke-width:0.263539"
+       id="rect31"
+       width="508"
+       height="285.75"
+       x="3.907985e-14"
+       y="-9.3258734e-15" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="pole" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="flag">
+    <g
+       id="g1413"
+       transform="matrix(0.8401057,-0.0956952,0.0956952,0.8401057,46.970764,27.797144)">
+      <g
+         id="g833"
+         transform="translate(1.217605,36.703608)">
+        <rect
+           style="fill:#784421;fill-opacity:1;stroke-width:0.240221"
+           id="rect991"
+           width="8.7765265"
+           height="176.95833"
+           x="171.5374"
+           y="65.450546"
+           ry="4.7169299" />
+        <rect
+           style="fill:#008000;fill-opacity:1;stroke-width:0.199473"
+           id="rect1118"
+           width="104.41609"
+           height="56.892063"
+           x="184.30403"
+           y="68.135239"
+           ry="3.6371026" />
+      </g>
+    </g>
+  </g>
+</svg>
