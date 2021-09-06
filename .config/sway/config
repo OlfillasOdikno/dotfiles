@@ -37,9 +37,9 @@ input type:keyboard {
 # output LVDS-1 mode 1280x800@120Hz
 
 ### Lock and Sleep
-exec $idle_path
+#exec $idle_path
 # Lock the screen
-bindsym $mod+x exec $lock_path
+#bindsym $mod+x exec $lock_path
 
 ### Key bindings
 # Basics:
@@ -147,10 +147,7 @@ bindsym $mod+x exec $lock_path
     bindsym $mod+minus scratchpad show
 
     # take a screenshot (selection)
-    bindsym $mod+Shift+p exec grim -g "$(slurp)" ~/screenshots/$(date +%Y-%m-%d_%H-%m-%s).png
-
-    # take a screenshot (entire)
-    bindsym $mod+Shift+o exec grim -t png ~/screenshots/$(date +%Y-%m-%d_%H-%m-%s).png
+    bindsym $mod+Shift+p exec flameshot gui
 
 # Resizing containers:
 mode "resize" {
@@ -191,8 +188,8 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Brightness controls
-bindsym XF86MonBrightnessUp exec brightnessctl -q set +5% # increase screen brightness
-bindsym XF86MonBrightnessDown exec brightnessctl -q set 5%- # decrease screen brightnes
+bindsym XF86MonBrightnessUp exec gdbus call -e -d de.mherzberg -o /de/mherzberg/wlrbrightness -m de.mherzberg.wlrbrightness.increase 0.1
+bindsym XF86MonBrightnessDown exec gdbus call -e -d de.mherzberg -o /de/mherzberg/wlrbrightness -m de.mherzberg.wlrbrightness.decrease 0.1
 
 # Power control
 bindsym $mod+z exec ~/.config/scripts/wofi-power.sh
@@ -241,5 +238,8 @@ xwayland enable
 
 # start mako
 exec mako
+
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
 
 include /etc/sway/config.d/*

@@ -1,7 +1,7 @@
 {
     "position": "top",
     "height": 30,
-    "modules-center": ["sway/workspaces", "network", "pulseaudio", "battery", "clock","custom/wofi-power"],
+    "modules-center": ["sway/workspaces", "network", "pulseaudio", "battery", "clock","custom/wofi-power", "tray"],
     // Modules configuration
 	"sway/workspaces": {
 		"disable-scroll": true,
@@ -74,4 +74,9 @@
             "interval": "once",
             "on-click": "~/.config/scripts/wofi-power.sh",
         },
+"tray": {
+    "icon-size": 21,
+    "spacing": 10
+},
+
 }
